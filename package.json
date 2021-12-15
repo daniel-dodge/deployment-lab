@@ -4,13 +4,22 @@
   },
   "name": "deployment",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server/index.js",
   "devDependencies": {},
   "scripts": {
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-dodge/deployment-lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daniel-dodge/deployment-lab/issues"
+  },
+  "homepage": "https://github.com/daniel-dodge/deployment-lab#readme"
 }
