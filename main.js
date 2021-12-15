@@ -1,1 +1,1 @@
-console.log("workrkowrkwo")
+alert("workrkowrkwo")
