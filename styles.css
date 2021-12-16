@@ -15,11 +15,13 @@ body {
 .text-container {
     border: 2px solid black;
     background-color:white;
-    height: 25vh;
-    width:50vw;
+    height: fit-content;
+    width:60vw;
+    padding:4vh;
     display:flex;
     justify-content:center;
     align-items:center;
+    text-align:center;
     box-shadow: 4px 2px 5px black
 
     
@@ -27,20 +29,61 @@ body {
 
 .item-container {
     display:flex;
-    height: 20vh;
+    height: fit-content;
     width:35vw;
-    flex-direction:center;
+    flex-direction:column;
     align-items:center;
     justify-content:center;
     background-color:white;
     border: 2px solid black;
     box-shadow: 4px 2px 5px black;
+    margin-top:50px;
+    padding:25px;
+    box-sizing:border-box;
+    margin-bottom:500px;
 }
-img {
+#chairimg {
     width:25vw;
+    margin-bottom:50px;
+    background-image:url("https://i5.walmartimages.com/asr/5b8719fe-a6d1-4ea5-8fc2-d655de6cc373.1d978baea1ae5e870f8bfba53cc378f0.jpeg")
 }
 #purchase-btn {
     border: 3px solid black;
     border-radius: 8px;
     box-shadow:2px 2px 2px black;
+    margin:25px;
+}
+#purchase-btn:active{
+    background-color:gray;
+    position:relative;
+    bottom:2px;
+    right:1px;
+}
+#house-container {
+    height:fit-content;
+    width:fit-content;
+    border:20px double black;
+    position:relative
+}
+#house {
+    width:90vw
+}
+#yard-box {
+    position:absolute;
+    /* background-color:white; */
+    height:59%;
+    width:30%;
+    top:25%;
+    left:18%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap
+}
+
+
+.newImage {
+    /* src:'https://i5.walmartimages.com/asr/5b8719fe-a6d1-4ea5-8fc2-d655de6cc373.1d978baea1ae5e870f8bfba53cc378f0.jpeg'; */
+    height:50px;
+    width:50px;
+    content: url('https://secure.img1-fg.wfcdn.com/im/33616853/resize-h755-w755%5Ecompr-r85/1292/129299556/Pudsey+Solid+Wood+Adirondack+Chair.jpg')
 }
